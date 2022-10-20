@@ -24,8 +24,8 @@ My First Project on FrontEnd Mentor
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/msabdalaal/qr-code-component-main)
-- Live Site URL: [Add live site URL here](https://msabdalaal.github.io/qr-code-component-main/)
+- Solution URL: [solution](https://github.com/msabdalaal/qr-code-component-main)
+- Live Site URL: [live site](https://msabdalaal.github.io/qr-code-component-main/)
 
 ## My process
 
@@ -41,5 +41,5 @@ then Css styling
 
 ## Author
 
-- Frontend Mentor - [@@msabdalaal](https://www.frontendmentor.io/profile/@msabdalaal)
+- Frontend Mentor - [@msabdalaal](https://www.frontendmentor.io/profile/msabdalaal)
 - Facebook - [@msabdalaal](https://www.facebook.com/msabdalaal)
