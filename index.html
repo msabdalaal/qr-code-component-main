@@ -3,17 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
-    <link />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,8 +17,6 @@
     />
 
     <title>Frontend Mentor | QR code component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       * {
         padding: 0;
@@ -42,41 +35,52 @@
         align-items: center;
         background-color: hsl(0, 0%, 100%);
         flex-direction: column;
-        height: 50vh;
-        aspect-ratio: 4/6;
-        padding: 0.5rem 0.5rem 1.5rem 0.5rem;
-        border-radius: 10px;
+        height: 25rem;
+        aspect-ratio: 2 / 3;
+        padding: 0.8rem 0.8rem 1.8rem 0.8rem;
+        border-radius: 0.5rem;
       }
       img {
         width: 100%;
-        border-radius: 5px;
+        border-radius: 0.5rem;
       }
       h1 {
         text-align: center;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 1.3rem;
         margin: 10px;
       }
       p {
         text-align: center;
-        font-size: 10px;
+        font-size: 0.9rem;
         font-weight: 400;
         color: hsl(220, 15%, 55%);
-        margin: 0px 10px 0px 10px;
+        margin: 0px 1rem 0px 1rem;
+      }
+      .attribution {
+        margin-top: 0.5rem;
+        font-size: 0.735rem;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(218deg, 44%, 22%);
       }
     </style>
   </head>
   <body>
-    <div class="card">
-      <img
-        src="https://raw.githubusercontent.com/msabdalaal/qr-code-component-main/master/images/image-qr-code.png"
-        alt="QR Code"
-      />
+    <main class="card">
+      <img src="./images/image-qr-code.png" alt="QR Code" />
       <h1>Improve your front-end skills by building projects</h1>
       <p>
         Scan the QR code to visit Frontend Mentor and take your coding skills to
         the next level
       </p>
-    </div>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/msabdalaal">Mohamed Sayed</a>.
+    </footer>
   </body>
 </html>
